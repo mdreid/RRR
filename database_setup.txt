@@ -1,0 +1,18 @@
+//Create tables
+CREATE TABLE (database).(table)
+(
+	FOOD_CODE	VARCHAR2(4 BYTE)	NOT NULL,
+	FOOD_NAME	VARCHAR2(30 BYTE)	NOT NULL,
+	PRICE		INT(5 BYTE)			NOT NULL,
+	AMOUNT		INT(2 BYTE)			NULL,
+	DEPARTMENT_CODE	VARCHAR2(1 BYTE)	NOT NULL,
+)
+
+//there are three types of keys: primary, foreign, combined.
+
+//insert a single line
+insert into (database).(table) values(' ',' ',' ');
+//you need to commit for oracle
+commit;
+update (table) set (category) = ' ' where (category) = ' ';
+//Select * from la_area where AREA_CODE = 'A';
