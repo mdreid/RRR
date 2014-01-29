@@ -1,0 +1,22 @@
+.header {
+	text-align:center;
+	font: 77.5% "TheSerif SemiBold";
+	padding: 2px 0px 0px 0px;
+}
+
+.info {
+	font: 97.5% "TheSerif SemiBold";
+	padding: 0px 300px 0px 300px;
+}
+.button{
+	text-align: center;
+}
+.button button{
+	text-align: center;
+	width: 90px;
+	height: 35px;
+	display: inline-block;
+	font: 119.5% "TheSerif SemiBold";
+	border-radius: 50px;
+	border: 1px solid #000;;
+}
